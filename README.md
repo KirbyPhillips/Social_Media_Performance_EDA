@@ -6,6 +6,32 @@ This repository outlines the data science process used to analyse social media p
 
 It covers exploratory data analysis, data quality assessment, and deeper analysis of content, post types, platforms, and timing. Key findings and potential business implications are presented throughout the project.
 
+## Table of Contents
+
+This repository presents the process used to analyse social media performance, from data inspection and exploratory analysis through to key findings, business impact, and potential future improvements.
+
+1. [Project Overview](#project-overview)
+2. [Data Inspection](#data-inspection)
+3. [EDA Health Check](#eda-health-check)
+4. [Descriptive Statistics](#descriptive-statistics)
+5. [Missing Values](#missing-values)
+6. [Univariate Analysis](#univariate-analysis)
+7. [Bivariate Analysis](#bivariate-analysis)
+8. [Correlation & Heatmap](#correlation--heatmap)
+9. [Outlier Detection](#outlier-detection)
+10. [Time Series EDA](#time-series-eda)
+11. [Categorical Deep Dive](#categorical-deep-dive)
+12. [Key Findings & Business Impact](#key-findings--business-impact)
+    - [Key Findings](#key-findings)
+    - [Business Impact & Financial Value](#business-impact--financial-value)
+13. [In Hindsight](#in-hindsight)
+    - [Data & Analysis](#data--analysis)
+    - [Dashboard & Business Application](#dashboard--business-application)
+14. [Concluding Notes](#concluding-notes)
+    - [Tools & Technologies](#tools--technologies)
+    - [Technical Skills Demonstrated](#technical-skills-demonstrated)
+---
+
 ## 1. Project Overview
 
 This project analyses 5,600 social media posts across 6 platforms to understand which factors are associated with stronger engagement and where businesses should focus their content strategy.
@@ -20,7 +46,7 @@ The project addresses these questions through exploratory data analysis, statist
 
 ---
 
-## 1. Data Inspection
+## 2. Data Inspection
 
 ### What this code block is doing and why it's needed
 
@@ -40,7 +66,7 @@ The project addresses these questions through exploratory data analysis, statist
 
 ---
 
-## 2. EDA Health Check
+## 3. EDA Health Check
 
 ### What this code block is doing and why it's needed
 
@@ -57,7 +83,7 @@ The project addresses these questions through exploratory data analysis, statist
 
 ---
 
-## 3. Descriptive Statistics
+## 4. Descriptive Statistics
 
 ### What this code block is doing and why it's needed
 
@@ -75,7 +101,7 @@ The project addresses these questions through exploratory data analysis, statist
 
 ---
 
-## 4. Missing Values
+## 5. Missing Values
 
 ### What this code block is doing and why it's needed
 
@@ -93,7 +119,7 @@ The project addresses these questions through exploratory data analysis, statist
 
 ---
 
-## 5. Univariate Analysis
+## 6. Univariate Analysis
 
 ### What this code block is doing and why it's needed
 
@@ -110,7 +136,7 @@ The project addresses these questions through exploratory data analysis, statist
 
 ---
 
-## 6. Bivariate Analysis
+## 7. Bivariate Analysis
 
 ### What this code block is doing and why it's needed
 
@@ -128,7 +154,7 @@ The project addresses these questions through exploratory data analysis, statist
 
 ---
 
-## 7. Correlation & Heatmap
+## 8. Correlation & Heatmap
 
 ### What this code block is doing and why it's needed
 
@@ -148,7 +174,7 @@ The project addresses these questions through exploratory data analysis, statist
 
 ---
 
-## 8. Outlier Detection
+## 9. Outlier Detection
 
 ### What this code block is doing and why it's needed
 
@@ -166,7 +192,7 @@ The project addresses these questions through exploratory data analysis, statist
 
 ---
 
-## 9. Time Series EDA
+## 10. Time Series EDA
 
 ### What this code block is doing and why it's needed
 
@@ -186,7 +212,7 @@ The project addresses these questions through exploratory data analysis, statist
 
 ---
 
-## 10. Categorical Deep Dive
+## 11. Categorical Deep Dive
 
 ### What this code block is doing and why it's needed
 
@@ -206,7 +232,7 @@ The project addresses these questions through exploratory data analysis, statist
 
 ---
 
-## 11. Key Findings & Business Impact
+## 12. Key Findings & Business Impact
 
 ### Key Findings
 
@@ -233,7 +259,7 @@ The project addresses these questions through exploratory data analysis, statist
    - Financial value could be assessed through **CTR, leads, conversions, revenue, ROAS, and marketing ROI**.
 ---
 
-## 12. In Hindsight
+## 13. In Hindsight
 
 This analysis demonstrated that social media performance could be analysed to identify meaningful differences in engagement across content, post types, platforms, and timing. Looking back, there are several areas I would expand in a future iteration.
 
@@ -251,7 +277,7 @@ A future iteration would therefore move beyond analysing engagement to measuring
 
 ---
 
-## 13. Concluding Notes
+## 14. Concluding Notes
 
 This concludes the analysis of social media performance across 5,600 posts and 6 platforms. The project demonstrates how exploratory data analysis can identify meaningful performance patterns and translate them into business-focused insights.
 
