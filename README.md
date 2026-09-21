@@ -32,6 +32,8 @@ The project addresses these questions through exploratory data analysis, statist
 - Data types are clean and logical: strings are stored as objects, counts as integers, rates as floats, and dates as datetime.
 - The dataset is **lightweight at just over 1MB**, so it can be processed efficiently throughout the analysis.
 
+---
+
 ## 2. EDA Health Check
 
 ### What this code block is doing and why it's needed
@@ -46,6 +48,8 @@ The project addresses these questions through exploratory data analysis, statist
 - The dataset contains **6 platforms, 5 content categories, 7 post types, and 8 regions**; Video is the dominant post type and Educational is the largest content category.
 - **Nine numeric columns are highly skewed**, so median performance is more representative than the mean and high-performing outliers should be investigated rather than removed.
 - The **66.79% missing rate for click data** limits click-based analysis to **1,860 posts** and should be treated as a key data limitation.
+
+---
 
 ## 3. Descriptive Statistics
 
@@ -63,6 +67,8 @@ The project addresses these questions through exploratory data analysis, statist
 - **Engagement strongly correlates with Views and Impressions (0.90)**, while Likes, Shares, Comments, and Clicks also move closely together. In contrast, **Engagement_Rate negatively correlates with reach metrics**, showing that high reach does not necessarily mean high engagement rate.
 - The correlation results support keeping **total Engagement and Engagement_Rate as separate dashboard metrics**, while Post_Hour and geographic coordinates show little relationship with performance.
 
+---
+
 ## 4. Missing Values
 
 ### What this code block is doing and why it's needed
@@ -79,6 +85,8 @@ The project addresses these questions through exploratory data analysis, statist
 - Missing Clicks are concentrated mainly in **Video (1,871), Image (922), Live Stream (538), and Text (371)** posts, confirming the relationship with post type.
 - The missing values should **not be filled with zeros or used to remove rows**; click-based analysis should be limited to the **1,860 posts with valid click data**.
 
+---
+
 ## 5. Univariate Analysis
 
 ### What this code block is doing and why it's needed
@@ -93,6 +101,8 @@ The project addresses these questions through exploratory data analysis, statist
 - **Educational content is the largest category (36.2%)**, while the eight regions have relatively even representation, supporting reliable regional comparisons.
 - **Medium engagement dominates (55.5%)**, and the top three hashtags — **#SuccessStory, #CustomerStory, and #ProductDemo** — account for **61.6% of all posts**.
 - The consistent skew in volume metrics reinforces using **median rather than mean** for performance benchmarks, while **Engagement_Rate** should be used as the primary comparison metric across platforms, post types, and content categories.
+
+---
 
 ## 6. Bivariate Analysis
 
@@ -109,6 +119,8 @@ The project addresses these questions through exploratory data analysis, statist
 - **Content_Category shows the strongest variation**: Customer Story and Educational both have a median engagement rate of **0.20**, compared with **0.08 for Entertainment**.
 - **Video has the lowest proportion of High engagement (22%) and highest proportion of Low engagement (29%)**, while Image and PDF posts have higher proportions of High engagement.
 - The findings indicate that **content category and post type are stronger performance differentiators than platform**, with Educational and Customer Story content consistently performing strongly.
+
+---
 
 ## 7. Correlation & Heatmap
 
@@ -128,6 +140,8 @@ The project addresses these questions through exploratory data analysis, statist
 - **Likes, Shares, Comments, and Clicks correlate strongly with Impressions and Views (0.88–0.95)**, while Engagement correlates **0.87 with both Views and Impressions**, confirming its relationship with overall interaction volume.
 - For dashboard design, **Impressions can represent reach instead of Views**, while **Engagement and Engagement_Rate should be reported separately** because total Engagement reflects raw interaction volume, whereas Engagement_Rate reflects the proportion of the audience that interacted.
 
+---
+
 ## 8. Outlier Detection
 
 ### What this code block is doing and why it's needed
@@ -143,6 +157,8 @@ The project addresses these questions through exploratory data analysis, statist
 - The Z-score method flags **263 rows**, fewer than IQR because it is more conservative with the dataset’s strongly skewed volume metrics.
 - Boxplots confirm that Engagement, Likes, Shares, and Comments contain clusters of high-performing outliers, while Impressions and Views have fewer but more extreme outliers.
 - The outliers represent **genuinely high-performing posts rather than data errors**, so they should be retained and flagged rather than removed; an optional dashboard filter can allow analysis with or without extreme posts.
+
+---
 
 ## 9. Time Series EDA
 
@@ -162,6 +178,8 @@ The project addresses these questions through exploratory data analysis, statist
 - **Posting hour shows similarly limited variation**, with average engagement rates between **0.148 and 0.158**; the highest-performing hours are 13:00, 16:00, 14:00, 18:00, and 17:00, all at approximately **0.16**.
 - Overall, **content appears to matter more than timing** in this dataset: content category and post type produce engagement-rate differences of **0.06–0.12**, compared with less than **0.01** across days and posting hours.
 
+---
+
 ## 10. Categorical Deep Dive
 
 ### What this code block is doing and why it's needed
@@ -180,7 +198,7 @@ The project addresses these questions through exploratory data analysis, statist
 - **Content Category shows the strongest variation**, with Educational and Customer Story at **0.20** and Entertainment at **0.08**, producing a **0.12 range**.
 - The findings indicate that **content category is the strongest differentiator, followed by post type and then platform**, making category-level performance an important focus for the dashboard and portfolio analysis.
 
-
+---
 
 
 
