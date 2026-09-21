@@ -220,9 +220,15 @@ The project addresses these questions through exploratory data analysis, statist
 
 ### Business Impact & Financial Value
 
-1. **Content strategy:** Track **engagement, clicks, leads, conversions, CAC, and revenue** to quantify the financial value of higher-performing content.
+1. **Content strategy:**
+   - The **0.12 Engagement_Rate gap** between the highest and lowest content categories provides a measurable basis for evaluating content strategy.
+   - Financial value could be assessed through **engagement, clicks, leads, conversions, CAC, and revenue**.
 
-2. **Scheduling:** Track **cost per engagement, campaign costs, and ROI** to measure whether timing optimisation delivers financial value.
+3. **Content scheduling:**
+   - The limited variation in Engagement_Rate across days and hours suggests minimal performance differences from timing.
+   - Financial value could be assessed through **content costs, cost per engagement, and campaign ROI**.
 
-3. **Performance measurement:** Connect **engagement → CTR → leads → conversions → revenue** to measure social media's contribution to business performance.
+5. **Performance measurement:**
+   - Separating Engagement from Engagement_Rate and removing redundant metrics creates a clearer performance framework.
+   - Financial value could be assessed through **CTR, leads, conversions, revenue, ROAS, and marketing ROI**.
 ---
