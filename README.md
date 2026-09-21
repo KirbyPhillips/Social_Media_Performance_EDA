@@ -12,6 +12,8 @@ The analysis investigates:
 
 The project addresses these questions through exploratory data analysis, statistical analysis, data visualisation, and business-focused interpretation.
 
+---
+
 ## 1. Data Inspection
 
 ### What this code block is doing and why it's needed
