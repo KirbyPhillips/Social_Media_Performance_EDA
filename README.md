@@ -1,4 +1,4 @@
-# Exploratory_Data_Analysis_Social_Media
+# Social_Media_Performance_EDA
 
 ### Note:
 
