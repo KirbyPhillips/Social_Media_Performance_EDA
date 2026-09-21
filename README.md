@@ -232,3 +232,72 @@ The project addresses these questions through exploratory data analysis, statist
    - Separating Engagement from Engagement_Rate and removing redundant metrics creates a clearer performance framework.
    - Financial value could be assessed through **CTR, leads, conversions, revenue, ROAS, and marketing ROI**.
 ---
+
+## 12. In Hindsight
+
+This analysis demonstrated that social media performance could be analysed to identify meaningful differences in engagement across content, post types, platforms, and timing. Looking back, there are several areas I would expand in a future iteration.
+
+### Data & Analysis
+
+- Incorporate additional business data such as **clicks, conversions, leads, and revenue** to connect engagement with financial outcomes.
+- Investigate whether the strongest content categories remain consistent across different platforms and audience segments.
+
+### Dashboard & Business Application
+
+- Develop a more interactive dashboard focused on **content performance, engagement, and business KPIs**.
+- Test whether insights from the analysis translate into measurable improvements in **engagement, conversions, and marketing ROI**.
+
+A future iteration would therefore move beyond analysing engagement to measuring its direct contribution to business performance.
+
+---
+
+## 13. Concluding Notes
+
+This concludes the analysis of social media performance across 5,600 posts and 6 platforms. The project demonstrates how exploratory data analysis can identify meaningful performance patterns and translate them into business-focused insights.
+
+### Tools & Technologies
+
+| Tool | Purpose |
+|---|---|
+| **Python** | Data analysis and visualisation |
+| **Pandas** | Data manipulation and preparation |
+| **Matplotlib & Seaborn** | Data visualisation |
+| **NumPy** | Numerical analysis |
+| **Jupyter Notebook** | Analysis workflow |
+
+---
+
+### Technical Skills Demonstrated
+
+**Data Analysis & Preparation**
+- Python
+- Pandas
+- Exploratory Data Analysis
+- Data Quality Assessment
+- Missing-Value Analysis
+
+**Statistical Analysis**
+- Descriptive Statistics
+- Correlation Analysis
+- Distribution Analysis
+- Outlier Detection
+- Time Series Analysis
+
+**Data Visualisation & Business Analysis**
+- Matplotlib
+- Seaborn
+- Data Visualisation
+- Performance Analysis
+- Business Insight Generation
+
+---
+
+## Author
+
+**Kirby Phillips** | Data Consultant
+
+For any inquiries, contact me: 
+
+Email: kphillips.za@gmail.com
+
+DM: [LinkedIn](https://www.linkedin.com/in/kirbykphillips/)
