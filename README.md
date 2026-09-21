@@ -206,5 +206,24 @@ The project addresses these questions through exploratory data analysis, statist
 
 ---
 
+## 11. Key Findings & Business Impact
 
+### Key Findings
 
+1. **Content strategy has a stronger relationship with engagement than platform or timing.** Educational and Customer Story content achieve the highest Engagement_Rate at **0.20**, compared with **0.08 for Entertainment**. Post Type shows a smaller difference, while Platform has the narrowest range.
+
+2. **Posting time does not meaningfully differentiate engagement.** Average Engagement_Rate is approximately **0.15 across all days**, while posting hours range only from **0.148 to 0.158**. The differences are negligible compared with those observed across content categories and post types.
+
+3. **Engagement volume and Engagement_Rate provide different performance insights.** Engagement is strongly related to reach and interaction volume, while Engagement_Rate measures a different aspect of performance. Impressions and Views are perfectly correlated at **1.00**, making them redundant as separate dashboard metrics.
+
+---
+
+### Business Impact & Financial Value
+
+1. **Content strategy can be prioritised around categories and formats associated with stronger engagement**, rather than relying primarily on platform selection. This can help focus content planning and resources on areas showing stronger audience response.
+
+2. **Resources can be focused less on finding a single “best” posting time** and more on developing content that performs consistently. This may reduce the effort spent on timing optimisation, although the financial value cannot be quantified from this dataset alone.
+
+3. **A clearer performance measurement framework can improve marketing reporting and decision-making** by separating engagement volume from engagement efficiency and removing redundant metrics. Direct financial impact cannot be calculated because the dataset does not contain conversion, revenue, or acquisition-cost data.
+
+---
