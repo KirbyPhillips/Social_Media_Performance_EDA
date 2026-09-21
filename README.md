@@ -220,10 +220,10 @@ The project addresses these questions through exploratory data analysis, statist
 
 ### Business Impact & Financial Value
 
-1. **Content strategy can be prioritised around categories and formats associated with stronger engagement**, rather than relying primarily on platform selection. This can help focus content planning and resources on areas showing stronger audience response.
+1. **Content performance:** The **0.12 Engagement_Rate gap** between the highest and lowest content categories provides a measurable basis for evaluating content strategy. In a live business environment, this could be linked to **engagement volume, reach, clicks, leads, conversion rate, customer acquisition cost (CAC), and revenue generated per campaign** to determine the financial value of shifting content investment toward higher-performing categories.
 
-2. **Resources can be focused less on finding a single “best” posting time** and more on developing content that performs consistently. This may reduce the effort spent on timing optimisation, although the financial value cannot be quantified from this dataset alone.
+2. **Content scheduling efficiency:** With day-of-week performance clustered around **0.15** and posting-hour performance between **0.148–0.158**, there is limited evidence that additional resources should be allocated to timing optimisation. A business could measure the resulting impact through **content production hours, campaign management costs, engagement per post, cost per engagement (CPE), and campaign ROI**.
 
-3. **A clearer performance measurement framework can improve marketing reporting and decision-making** by separating engagement volume from engagement efficiency and removing redundant metrics. Direct financial impact cannot be calculated because the dataset does not contain conversion, revenue, or acquisition-cost data.
+3. **Performance measurement efficiency:** Separating **Engagement from Engagement_Rate** and removing redundant metrics such as Views/Impressions can create a clearer KPI framework. In a commercial setting, these metrics could then be connected to **CTR, leads generated, conversion rate, customer acquisition cost, revenue per campaign, return on ad spend (ROAS), and marketing ROI** to establish the financial contribution of social media activity.set does not contain conversion, revenue, or acquisition-cost data.
 
 ---
