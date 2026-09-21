@@ -2,7 +2,9 @@
 
 ### Note:
 
-This repository outlines the data science analytical and technical process used to understand social media performance, from exploratory data analysis and data quality assessment through to deeper analysis of content, post types, platforms, and timing. Key findings, performance patterns, and their potential business implications are presented throughout the project.
+This repository outlines the data science process used to analyse social media performance.
+
+It covers exploratory data analysis, data quality assessment, and deeper analysis of content, post types, platforms, and timing. Key findings and potential business implications are presented throughout the project.
 
 ## 1. Project Overview
 
