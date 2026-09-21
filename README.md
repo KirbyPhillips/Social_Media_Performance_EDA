@@ -1,5 +1,17 @@
 # Exploratory_Data_Analysis_Social_Media
 
+## 1. Project Overview
+
+This project analyses 5,600 social media posts across 6 platforms to understand which factors are associated with stronger engagement and where businesses should focus their content strategy.
+
+The analysis investigates:
+
+- Which content factors drive the highest engagement rate?
+- Does posting day or time meaningfully affect engagement?
+- Which metrics provide the most useful measures of content performance?
+
+The project addresses these questions through exploratory data analysis, statistical analysis, data visualisation, and business-focused interpretation.
+
 ## 1. Data Inspection
 
 ### What this code block is doing and why it's needed
