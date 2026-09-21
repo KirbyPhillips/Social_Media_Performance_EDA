@@ -1,5 +1,9 @@
 # Exploratory_Data_Analysis_Social_Media
 
+### Note:
+
+This repository outlines the data science analytical and technical process used to understand social media performance, from exploratory data analysis and data quality assessment through to deeper analysis of content, post types, platforms, and timing. Key findings, performance patterns, and their potential business implications are presented throughout the project.
+
 ## 1. Project Overview
 
 This project analyses 5,600 social media posts across 6 platforms to understand which factors are associated with stronger engagement and where businesses should focus their content strategy.
