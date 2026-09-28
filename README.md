@@ -177,7 +177,7 @@ The analysis shows that content choice is associated with meaningful differences
 
 ## 8. Correlation & Heatmap
 
-### What this code block is doing and why it's needed
+This analysis examines how the main performance metrics relate to one another and whether they provide similar or different information. It helps identify which metrics move together and which provide distinct insights into performance, and it:
 
 - Calculates the **correlation between every pair of numeric metrics** and visualises the results using a colour-coded heatmap.
 - Masks the upper triangle to remove duplicate values, leaving each unique correlation pair visible once.
@@ -194,6 +194,10 @@ The analysis shows that content choice is associated with meaningful differences
 - **Impressions and Views have a perfect correlation of 1.00**, indicating that they are essentially measuring the same metric in this dataset.
 - **Likes, Shares, Comments, and Clicks correlate strongly with Impressions and Views**, with correlations generally between **0.87 and 0.95.** 
 - Overall, the results support treating **Engagement and Engagement_Rate** as distinct performance measures: Engagement reflects interaction volume, while Engagement_Rate captures the proportion of the audience that interacted.
+
+### Why is this important to the business?
+
+Understanding these relationships helps the business focus on metrics that provide distinct insights and avoid treating highly correlated metrics as separate measures of performance.
 
 ---
 
