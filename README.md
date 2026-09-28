@@ -85,7 +85,7 @@ The health check confirms that the data can be used to identify meaningful patte
 
 ## 4. Descriptive Statistics
 
-### What this code block is doing and why it's needed
+The descriptive statistics summarises the main characteristics of the dataset, including typical performance, variation, and relationships between key metrics. It helps establish how performance should be measured and interpreted before moving into deeper analysis, and it includes:
 
 - Calculates summary statistics for the dataset, including **mean, median, skewness, kurtosis, and null counts** across key metrics.
 - Separates columns into **numeric, categorical, and datetime** types to understand the structure of the data.
@@ -98,6 +98,10 @@ The health check confirms that the data can be used to identify meaningful patte
 - **Engagement_Rate and Click_Through_Rate are more consistent**, with mean and median both around 0.15 and 0.02 respectively; however, CTR is limited by **3,740 missing values**.
 - **Engagement strongly correlates with Views and Impressions (0.90)**, while Likes, Shares, Comments, and Clicks also move closely together. In contrast, **Engagement_Rate negatively correlates with reach metrics**, showing that high reach does not necessarily mean high engagement rate.
 - The correlation results support keeping **total Engagement and Engagement_Rate as separate dashboard metrics**, while Post_Hour and geographic coordinates show little relationship with performance.
+
+**Why is this important to the business?**
+
+These statistics help the business distinguish between typical performance, unusually high performance, and metrics that provide different types of insights. This supports more reliable performance reporting and helps avoid treating highly correlated or redundant metrics as separate measures.
 
 ---
 
