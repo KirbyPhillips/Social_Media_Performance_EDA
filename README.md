@@ -48,16 +48,16 @@ This dataset was inspected to determine its **size, structure, data types, and m
 
 - `df.shape` shows the number of rows and columns.
 - `df.info()` shows column names, data types, and non-null counts.
-- `audit()` provides a deeper column-level check of **nulls, unique values, and sample values**.
+- `audit()` provides a deeper column-level check of nulls, unique values, and sample values.
 - Memory usage confirms the dataset is lightweight enough to work with efficiently.
 
 The data inspection revealed that:
 
 - The dataset contains **5,600 posts across 24 columns**.
 - Only **Clicks** and **Click_Through_Rate** contain missing values, with **3,740 missing values (66.8%)** each.
-- The missing click data appears **structural rather than random**, likely relating to specific platforms and post types that do not generate trackable clicks.
+- The missing click data appears structural rather than random, likely relating to specific platforms and post types that do not generate trackable clicks.
 - Data types are clean and logical: strings are stored as objects, counts as integers, rates as floats, and dates as datetime.
-- The dataset is **lightweight at just over 1MB**, so it can be processed efficiently throughout the analysis.
+- The dataset is lightweight at just over 1MB, so it can be processed efficiently throughout the analysis.
 
 ---
 
