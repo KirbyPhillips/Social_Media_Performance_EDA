@@ -30,7 +30,7 @@ This repository presents the process used to analyse social media performance, f
 
 ## 1. Project Overview
 
-This project analyses 5,600 social media posts across 6 platforms to understand which factors are associated with stronger engagement and where businesses should focus their content strategy.
+This project analysed 5,600 social media posts across 6 platforms to understand which factors are associated with stronger engagement and where the business should focus their content strategy.
 
 The analysis investigates:
 
