@@ -250,7 +250,7 @@ The relatively stable trend suggests that overall engagement has remained consis
 
 ## 11. Categorical Deep Dive
 
-### What this code block is doing and why it's needed
+The categorical deep dive compares platforms, post types, and content categories to understand how engagement performance differs across the main content dimensions. It helps identify which categories provide the most meaningful opportunities for comparing and improving content performance. It specifically:
 
 - Examines each **categorical variable** by checking unique values, the most common category, percentage share, and potential imbalance.
 - Flags categories where a single value represents more than **90% of rows** to assess whether segmentation is meaningful.
@@ -258,13 +258,17 @@ The relatively stable trend suggests that overall engagement has remained consis
 - Consolidates the key categorical findings into a **ranked summary** of engagement performance.
 - Identifies which **platform, post type, and content category** are most associated with higher engagement rates.
 
-### Interpretation of the output
+### The categorical deep dive revealed that:
 
 - No categorical variable is highly imbalanced, with no single value exceeding the **90% threshold**; Video is the most common post type at **52.6%** but remains suitable for comparison.
 - **Instagram leads platform performance at 0.16**, while LinkedIn is lowest at 0.14; the **0.02 range** makes platform the weakest differentiator.
 - **Image and PDF posts lead at 0.18**, while Video is lowest at 0.14 despite representing **52.6% of all posts**; the **0.04 range** is twice that of platforms.
 - **Content Category shows the strongest variation**, with Educational and Customer Story at **0.20** and Entertainment at **0.08**, producing a **0.12 range**.
 - The findings indicate that **content category is the strongest differentiator, followed by post type and then platform**, making category-level performance an important focus for the dashboard and portfolio analysis.
+
+### Why is this important to the business?
+
+The analysis shows that content category provides the clearest differentiation in engagement performance, giving the business a stronger basis for evaluating content strategy and where further performance analysis should focus.
 
 ---
 
