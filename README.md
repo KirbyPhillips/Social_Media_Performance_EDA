@@ -123,6 +123,8 @@ The project addressed these questions through exploratory data analysis, statist
 - Examines each variable individually using **histograms, boxplots, QQ plots, and categorical bar charts**.
 - Assesses the **distribution, spread, outliers, and category frequencies** before analysing relationships between variables.
 
+![Alt text](images/Engagement%20Distribution.png)
+
 ### Interpretation of the output
 
 - **Engagement, Impressions, Views, Likes, Shares, Comments, and Clicks are strongly right-skewed**, with high-performing posts creating extreme upper-end values; **Engagement_Rate is the most stable metric**.
@@ -140,6 +142,8 @@ The project addressed these questions through exploratory data analysis, statist
 - Examines relationships between pairs of variables using **boxplots, violin plots, group-level statistics, and cross-tabulations**.
 - Compares Engagement_Rate across **Platform, Post_Type, and Content_Category**, and examines the relationship between Post_Type and Engagement_Level.
 - Identifies which content dimensions are associated with meaningful differences in performance.
+
+![Alt text](images/Engagement%20Rate%20by%20Content%20Category.png)
 
 ### Interpretation of the output
 
@@ -161,6 +165,8 @@ The project addressed these questions through exploratory data analysis, statist
 - Uses correlation analysis to identify which metrics **move together and which measure different behaviour**.
 - Supports dashboard design by identifying metrics that are redundant versus those that provide distinct performance insights.
 
+![Alt text](images/Correlation%20Matrix.png)
+
 ### Interpretation of the output
 
 - **Engagement, Impressions, Likes, Shares, Comments, Views, and Clicks form a strong correlation cluster**, with correlations ranging from **0.80 to 1.00**, showing that these volume metrics generally move together.
@@ -178,6 +184,8 @@ The project addressed these questions through exploratory data analysis, statist
 - Identifies unusually high or low values using **IQR and Z-score methods**.
 - IQR is more suitable for **skewed data**, while Z-score identifies more extreme deviations from the mean.
 - Flags outliers with an **Is_Outlier** column rather than removing them, allowing them to be included or excluded during analysis.
+
+![Alt text](images/Outlier%20Overview.png)
 
 ### Interpretation of the output
 
@@ -198,6 +206,8 @@ The project addressed these questions through exploratory data analysis, statist
 - Extracts the **day of week** from each post date to compare average engagement rates.
 - Groups posts by **posting hour** to identify which times of day perform best.
 - Provides data-driven insight into **when to post**, a key requirement of social media performance analysis.
+
+![Alt text](images/Monthly%20Total%20Engagement%20Trend.png)
 
 ### Interpretation of the output
 
