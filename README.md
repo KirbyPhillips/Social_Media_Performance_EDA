@@ -191,9 +191,9 @@ The project addressed these questions through exploratory data analysis, statist
 
 - **Engagement has the highest IQR outlier count**, with 435 posts (7.8%), followed by Comments (7.1%), Likes (5.5%), and Shares (5.2%).
 - **Engagement_Rate has zero IQR outliers**, reinforcing that it is a stable and consistent performance metric.
-- The Z-score method flags **263 rows**, fewer than IQR because it is more conservative with the dataset’s strongly skewed volume metrics.
-- Boxplots confirm that Engagement, Likes, Shares, and Comments contain clusters of high-performing outliers, while Impressions and Views have fewer but more extreme outliers.
-- The outliers represent **genuinely high-performing posts rather than data errors**, so they should be retained and flagged rather than removed; an optional dashboard filter can allow analysis with or without extreme posts.
+- The Z-score method flags **263 rows**, identifying a smaller set of more extreme observations.
+- The boxplots show that **Engagement, Likes, Shares, Comments, Impressions, Views, and Clicks** contain numerous high-value observations beyond the upper whiskers, reflecting the strongly right-skewed nature of these metrics.
+- These observations should not automatically be treated as errors. They may represent legitimate high-performing posts, so retaining and flagging them allows the analysis to account for their influence without unnecessarily removing valid data.
 
 ---
 
