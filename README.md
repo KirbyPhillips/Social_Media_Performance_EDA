@@ -127,11 +127,11 @@ The project addressed these questions through exploratory data analysis, statist
 
 ### Interpretation of the output
 
-- **Engagement, Impressions, Views, Likes, Shares, Comments, and Clicks are strongly right-skewed**, with high-performing posts creating extreme upper-end values; **Engagement_Rate is the most stable metric**.
-- **YouTube, TikTok, and X.com account for 67.5% of posts**, while Video represents **52.6% of all post types**, making these distributions important when comparing performance.
-- **Educational content is the largest category (36.2%)**, while the eight regions have relatively even representation, supporting reliable regional comparisons.
-- **Medium engagement dominates (55.5%)**, and the top three hashtags — **#SuccessStory, #CustomerStory, and #ProductDemo** — account for **61.6% of all posts**.
-- The consistent skew in volume metrics reinforces using **median rather than mean** for performance benchmarks, while **Engagement_Rate** should be used as the primary comparison metric across platforms, post types, and content categories.
+- Engagement is strongly right-skewed, with a mean of 115,444.90 compared with a median of 58,991.50, indicating that a smaller number of high-performing posts pull the average upward.
+- The boxplot shows numerous high-value outliers, confirming that engagement volume varies substantially across posts.
+- The QQ plot shows a clear departure from normality, particularly in the upper tail, reinforcing the strong right-skewed distributions.
+- Engagement has no missing values, with 0 nulls shown in the summary statistics.
+- Given the skewed distribution and presence of extreme values, the median provides a more representative measure of typical Engagement than the mean.
 
 ---
 
