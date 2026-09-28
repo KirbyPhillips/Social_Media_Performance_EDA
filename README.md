@@ -107,7 +107,7 @@ These statistics help the business distinguish between typical performance, unus
 
 ## 5. Missing Values
 
-### What this code block is doing and why it's needed
+This section examines the amount and pattern of missing data to understand whether missing values could affect the reliability of the performance analysis. It also identifies where missing data is concentrated and whether it represents a limitation for specific metrics.
 
 - Measures and visualises missing data by calculating **null counts and percentages** for each column.
 - Identifies columns exceeding a **30% missing-value threshold** and investigates missing Clicks and Click_Through_Rate by **Platform and Post_Type**.
@@ -121,6 +121,10 @@ These statistics help the business distinguish between typical performance, unus
 - The heatmap shows that the missing values are highly concentrated in these two columns rather than being distributed randomly across the dataset.
 - The bar chart confirms that both Clicks and Click_Through_Rate have the same number of missing values.
 - This concentrated pattern indicates that the missingness is structural rather than widespread across the dataset.
+
+**Why is this important to the business?**
+
+The missing click data limits how confidently the business can use Clicks and Click_Through_Rate to compare content performance. Recognising this limitation helps prevent incomplete data from leading to misleading performance conclusions.
 
 ---
 
