@@ -30,7 +30,7 @@ This repository presents the process used to analyse social media performance, f
 
 ## 1. Project Overview
 
-This project analysed 5,600 social media posts across 6 platforms to understand which factors are associated with stronger engagement and where the business should focus their content strategy.
+This project analysed 5,600 social media posts across 6 platforms to understand which factors are associated with stronger engagement and where the business should focus its content strategy.
 
 The analysis investigates:
 
@@ -85,7 +85,7 @@ The health check confirms that the data can be used to identify meaningful patte
 
 ## 4. Descriptive Statistics
 
-The descriptive statistics summarises the main characteristics of the dataset, including typical performance, variation, and relationships between key metrics. It helps establish how performance should be measured and interpreted before moving into deeper analysis, and it includes:
+The descriptive statistics summarise the main characteristics of the dataset, including typical performance, variation, and relationships between key metrics. It helps establish how performance should be measured and interpreted before moving into deeper analysis, and it includes:
 
 - Calculates summary statistics for the dataset, including **mean, median, skewness, kurtosis, and null counts** across key metrics.
 - Separates columns into **numeric, categorical, and datetime** types to understand the structure of the data.
@@ -203,7 +203,7 @@ Understanding these relationships helps the business focus on metrics that provi
 
 ## 9. Outlier Detection
 
-The outlier detection identifies unusually high or low performance values and examines whether they represent genuine variation in social media performance. It helps distinguish potentially meaningful high-performing posts from values that could distort the overall analysis. It specifically:
+The outlier analysis identifies unusually high or low performance values and examines whether they represent genuine variation in social media performance. It helps distinguish potentially meaningful high-performing posts from values that could distort the overall analysis. It specifically:
 
 - Identifies unusually high or low values using **IQR and Z-score methods**.
 - IQR is more suitable for **skewed data**, while Z-score identifies more extreme deviations from the mean.
@@ -233,7 +233,7 @@ This EDA examines how social media performance changes over time, including mont
 - Converts `Post_Date` into a proper datetime format and groups **total engagement by month** to identify overall trends.
 - Extracts the **day of week** from each post date to compare average engagement rates.
 - Groups posts by **posting hour** to identify patterns in engagement performance.
-- Provides data-driven insight into **when to post**, a key requirement of social media performance analysis.
+- Assesses whether posting time is associated with differences in engagement performance.
 
 ![Alt text](images/Monthly%20Total%20Engagement%20Trend.png)
 
@@ -280,7 +280,7 @@ The analysis shows that content category provides the clearest differentiation i
    Educational and Customer Story content achieve the highest Engagement_Rate at **0.20,** compared with **0.08** for Entertainment. Content Category shows a larger difference in performance than Post Type or Platform.
 
 2. **Posting time does not meaningfully differentiate engagement.**
-   Average Engagement_Rate is approximately **0.15 across all days,** while posting hours range only from **0.148 to 0.158.** The differences are small compared with those observed across content categories and post types
+   Average Engagement_Rate is approximately **0.15 across all days,** while posting hours range only from **0.148 to 0.158.** The differences are small compared with those observed across content categories and post types.
 
 3. **Engagement volume and Engagement_Rate provide different performance insights.**
    Engagement is strongly related to reach and interaction volume, while Engagement_Rate measures a different aspect of performance. This means both metrics can provide useful but distinct views of content performance.
