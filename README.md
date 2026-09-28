@@ -177,7 +177,7 @@ The analysis shows that content choice is associated with meaningful differences
 
 ## 8. Correlation & Heatmap
 
-This analysis examines how the main performance metrics relate to one another and whether they provide similar or different information. It helps identify which metrics move together and which provide distinct insights into performance, and it:
+This correlation analysis examines how the main performance metrics relate to one another and whether they provide similar or different information. It helps identify which metrics move together and which provide distinct insights into performance, and it:
 
 - Calculates the **correlation between every pair of numeric metrics** and visualises the results using a colour-coded heatmap.
 - Masks the upper triangle to remove duplicate values, leaving each unique correlation pair visible once.
