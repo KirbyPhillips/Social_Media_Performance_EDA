@@ -51,7 +51,7 @@ This dataset was inspected to determine its **size, structure, data types, and m
 - `audit()` provides a deeper column-level check of nulls, unique values, and sample values.
 - Memory usage confirms the dataset is lightweight enough to work with efficiently.
 
-**The data inspection revealed that:**
+### The data inspection revealed that:
 
 - The dataset contains **5,600 posts across 24 columns**.
 - Only **Clicks** and **Click_Through_Rate** contain missing values, with **3,740 missing values (66.8%)** each.
@@ -59,7 +59,7 @@ This dataset was inspected to determine its **size, structure, data types, and m
 - Data types are clean and logical: strings are stored as objects, counts as integers, rates as floats, and dates as datetime.
 - The dataset is lightweight at just over 1MB, so it can be processed efficiently throughout the analysis.
 
-**Why is this important to the business?**
+### Why is this important to the business?
 
 The data inspection shows that the dataset is generally well structured for analysing social media performance, but click-based metrics have a significant limitation. With click data available for only part of the dataset, the business should be cautious when using Clicks or CTR to compare overall content performance. This limitation needs to be considered before making decisions based on those metrics.
 
@@ -69,7 +69,7 @@ The data inspection shows that the dataset is generally well structured for anal
 
 This EDA Health Check was run across the whole dataset to review data quality, missing values, duplicates, distributions, and category structure before deeper analysis. It provides an overall view of the dataset and highlights any issues that could affect how the results should be interpreted.
 
-**The EDA Health Check revealed that:**
+### The EDA Health Check revealed that:
 
 - The dataset has **5,600 rows and 24 columns**, with **no duplicates** and only **Clicks** and **Click_Through_Rate** missing (66.79% each).
 - Engagement and other performance metrics are **strongly right-skewed**, with a small number of high-performing posts pulling the mean above the median.
@@ -77,7 +77,7 @@ This EDA Health Check was run across the whole dataset to review data quality, m
 - **Nine numeric columns are highly skewed**, so median performance is more representative than the mean and high-performing outliers should be investigated rather than removed.
 - The **66.79% missing rate for click data** limits click-based analysis to **1,860 posts** and should be treated as a key data limitation.
 
-**Why is this important to the business?**
+### Why is this important to the business?
 
 The health check confirms that the data can be used to identify meaningful patterns in social media performance, while highlighting important limitations. Using median performance alongside the mean helps provide a more realistic view of typical content performance, while the missing click data limits how confidently the business can assess click-based performance.
 
@@ -99,7 +99,7 @@ The descriptive statistics summarises the main characteristics of the dataset, i
 - **Engagement strongly correlates with Views and Impressions (0.90)**, while Likes, Shares, Comments, and Clicks also move closely together. In contrast, **Engagement_Rate negatively correlates with reach metrics**, showing that high reach does not necessarily mean high engagement rate.
 - The correlation results support keeping **total Engagement and Engagement_Rate as separate dashboard metrics**, while Post_Hour and geographic coordinates show little relationship with performance.
 
-**Why is this important to the business?**
+### Why is this important to the business?
 
 These statistics help the business distinguish between typical performance, unusually high performance, and metrics that provide different types of insights. This supports more reliable performance reporting and helps avoid treating highly correlated or redundant metrics as separate measures.
 
@@ -122,7 +122,7 @@ This section examines the amount and pattern of missing data to understand wheth
 - The bar chart confirms that both Clicks and Click_Through_Rate have the same number of missing values.
 - This concentrated pattern indicates that the missingness is structural rather than widespread across the dataset.
 
-**Why is this important to the business?**
+### Why is this important to the business?
 
 The missing click data limits how confidently the business can use Clicks and Click_Through_Rate to compare content performance. Recognising this limitation helps prevent incomplete data from leading to misleading performance conclusions.
 
@@ -134,7 +134,6 @@ This univariate analysis examines individual variables to understand their distr
 
 - Examines each variable individually using **histograms, boxplots, QQ plots, and categorical bar charts**.
 - Assesses the **distribution, spread, outliers, and category frequencies** before analysing relationships between variables.
-  
 
 ![Alt text](images/Engagement%20Distribution.png)
 
@@ -146,7 +145,7 @@ This univariate analysis examines individual variables to understand their distr
 - Engagement has no missing values, with 0 nulls shown in the summary statistics.
 - Given the skewed distribution and presence of extreme values, the median provides a more representative measure of typical Engagement than the mean.
 
-**Why is this important to the business?**
+### Why is this important to the business?
 
 Understanding the typical level of engagement helps the business set more realistic expectations for content performance and avoid letting a small number of exceptionally high-performing posts distort the overall picture.
 
@@ -154,7 +153,7 @@ Understanding the typical level of engagement helps the business set more realis
 
 ## 7. Bivariate Analysis
 
-### What this code block is doing and why it's needed
+This bivariate analysis examines how Engagement_Rate differs across content categories to identify which types of content are associated with stronger performance. Comparing these categories helps show whether content choice is linked to meaningful differences in engagement. It:
 
 - Examines relationships between pairs of variables using **boxplots, violin plots, group-level statistics, and cross-tabulations**.
 - Compares Engagement_Rate across Content_Category to identify differences in performance between content types.
@@ -169,6 +168,10 @@ Understanding the typical level of engagement helps the business set more realis
 - **Event / Webinar and Product Promotion** fall between these categories, with median Engagement_Rates of approximately 0.14 and 0.12 respectively.
 - The distributions also show that **Product Promotion** contains several higher-value observations, visible as individual points above the upper whisker.
 - Overall, the graph shows **meaningful differences in Engagement_Rate across Content_Category,** with Educational and Customer Story content associated with substantially higher typical engagement than Entertainment content.
+
+### Why is this important to the business?
+
+The analysis shows that content choice is associated with meaningful differences in engagement, giving the business a clearer basis for evaluating which types of content perform more strongly.
 
 ---
 
