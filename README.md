@@ -312,17 +312,17 @@ This EDA identifies potential business value and areas for further investigation
 
 ## 13. In Hindsight
 
-This analysis demonstrated that social media performance could be analysed to identify meaningful differences in engagement across content, post types, platforms, and timing. Looking back, there are several areas I would expand in a future iteration.
+This analysis identified meaningful differences in engagement across content, post type, platform, and timing. A future iteration could connect these findings to business outcomes.
 
 ### Data & Analysis
 
-- Incorporate additional business data such as **clicks, conversions, leads, and revenue** to connect engagement with financial outcomes.
-- Investigate whether the strongest content categories remain consistent across different platforms and audience segments.
+- Add clicks, leads, conversions, and revenue to measure commercial impact.
+- Analyse performance across platforms and audience segments.
 
 ### Dashboard & Business Application
 
-- Develop a more interactive dashboard focused on **content performance, engagement, and business KPIs**.
-- Test whether insights from the analysis translate into measurable improvements in **engagement, conversions, and marketing ROI**.
+- Develop an interactive dashboard focused on content performance and business KPIs.
+- Measure the impact on engagement, conversions, and marketing ROI.
 
 A future iteration would therefore move beyond analysing engagement to measuring its direct contribution to business performance.
 
