@@ -67,12 +67,9 @@ The data inspection shows that the dataset is generally well structured for anal
 
 ## 3. EDA Health Check
 
-### What this code block is doing and why it's needed
+This EDA Health Check was run on the whole dataset, including size, memory, missing values, duplicates, numeric statistics, categorical summaries, and skewness. Essentially, it consolidates the checks into one structured overview to provide **situational awareness before deeper analysis**.
 
-- Runs a **complete EDA health check** covering dataset size, memory, missing values, duplicates, numeric statistics, categorical summaries, and skewness.
-- Consolidates the checks into one structured overview to provide **situational awareness before deeper analysis**.
-
-### Interpretation of the output
+**The EDA Health Check revealed that:**
 
 - The dataset has **5,600 rows and 24 columns**, with **no duplicates** and only **Clicks** and **Click_Through_Rate** missing (66.79% each).
 - Engagement and other performance metrics are **strongly right-skewed**, with a small number of high-performing posts pulling the mean above the median.
