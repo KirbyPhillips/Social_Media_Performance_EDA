@@ -67,7 +67,7 @@ The data inspection shows that the dataset is generally well structured for anal
 
 ## 3. EDA Health Check
 
-This EDA Health Check was run on the whole dataset, including size, memory, missing values, duplicates, numeric statistics, categorical summaries, and skewness. Essentially, it consolidates the checks into one structured overview to provide **situational awareness before deeper analysis**.
+This EDA Health Check was run across the whole dataset to review data quality, missing values, duplicates, distributions, and category structure before deeper analysis. It provides an overall view of the dataset and highlights any issues that could affect how the results should be interpreted.
 
 **The EDA Health Check revealed that:**
 
@@ -76,6 +76,10 @@ This EDA Health Check was run on the whole dataset, including size, memory, miss
 - The dataset contains **6 platforms, 5 content categories, 7 post types, and 8 regions**; Video is the dominant post type and Educational is the largest content category.
 - **Nine numeric columns are highly skewed**, so median performance is more representative than the mean and high-performing outliers should be investigated rather than removed.
 - The **66.79% missing rate for click data** limits click-based analysis to **1,860 posts** and should be treated as a key data limitation.
+
+**Why is this important to the business?**
+
+The health check confirms that the data can be used to identify meaningful patterns in social media performance, while highlighting important limitations. Using median performance alongside the mean helps provide a more realistic view of typical content performance, while the missing click data limits how confidently the business can assess click-based performance.
 
 ---
 
