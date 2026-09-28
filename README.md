@@ -108,10 +108,9 @@ The project addressed these questions through exploratory data analysis, statist
 ### Interpretation of the output
 
 - Only **Clicks** and **Click_Through_Rate** contain missing values, with **3,740 missing values each**; all other columns are complete.
-- The heatmap shows the missing values form a **concentrated pattern rather than random gaps**, indicating structural missingness.
-- Missing Clicks are concentrated across **YouTube (1,320), X.com (1,201), Instagram (998), and LinkedIn (221)**, while TikTok and Facebook have no missing click data.
-- Missing Clicks are concentrated mainly in **Video (1,871), Image (922), Live Stream (538), and Text (371)** posts, confirming the relationship with post type.
-- The missing values should **not be filled with zeros or used to remove rows**; click-based analysis should be limited to the **1,860 posts with valid click data**.
+- The heatmap shows that the missing values are highly concentrated in these two columns rather than being distributed randomly across the dataset.
+- The bar chart confirms that both Clicks and Click_Through_Rate have the same number of missing values.
+- This concentrated pattern indicates that the missingness is structural rather than widespread across the dataset.
 
 ---
 
