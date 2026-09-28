@@ -91,7 +91,7 @@ The descriptive statistics summarises the main characteristics of the dataset, i
 - Separates columns into **numeric, categorical, and datetime** types to understand the structure of the data.
 - Produces a **correlation matrix** to identify relationships between numeric variables and guide dashboard metrics.
 
-### Interpretation of the output
+### The descriptive statistics summary revealed that:
 
 - The dataset contains **14 numeric, 8 categorical, and 2 datetime columns**, supporting both performance and time-based analysis.
 - **Engagement, Impressions, Views, Likes, Shares, and Comments are strongly right-skewed**, making the median more representative of typical performance than the mean.
@@ -115,7 +115,7 @@ This section examines the amount and pattern of missing data to understand wheth
 
 ![Alt text](images/Missing%20Value%20Pattern.png)
 
-### Interpretation of the output
+### The missing values investigation revealed that:
 
 - Only **Clicks** and **Click_Through_Rate** contain missing values, with **3,740 missing values each**; all other columns are complete.
 - The heatmap shows that the missing values are highly concentrated in these two columns rather than being distributed randomly across the dataset.
@@ -137,7 +137,7 @@ This univariate analysis examines individual variables to understand their distr
 
 ![Alt text](images/Engagement%20Distribution.png)
 
-### Interpretation of the output
+### The univariate analysis revealed that:
 
 - Engagement is strongly right-skewed, with a mean of 115,444.90 compared with a median of 58,991.50, indicating that a smaller number of high-performing posts pull the average upward.
 - The boxplot shows numerous high-value outliers, confirming that engagement volume varies substantially across posts.
@@ -161,7 +161,7 @@ This bivariate analysis examines how Engagement_Rate differs across content cate
 
 ![Alt text](images/Engagement%20Rate%20by%20Content%20Category.png)
 
-### Interpretation of the output
+### The bivariate analysis revealed that:
 
 - **Customer Story and Educational** content show the highest typical Engagement_Rate, with both having a median of approximately 0.20.
 - **Entertainment** has the lowest typical Engagement_Rate, with a median of approximately 0.08.
@@ -187,7 +187,7 @@ The analysis shows that content choice is associated with meaningful differences
 
 ![Alt text](images/Correlation%20Matrix.png)
 
-### Interpretation of the output
+### The correlation check revealed that:
 
 - **Engagement, Impressions, Likes, Shares, Comments, Views, and Clicks form a strong positive correlation cluster**, with correlations ranging from **0.80 to 1.00**, indicating that these volume metrics generally move together.
 - **Engagement_Rate behaves differently**, showing weak-to-moderate negative correlations with reach and interaction metrics, including **-0.32 with Impressions and Views**, and a near-zero correlation of **0.04 with Engagement**.
