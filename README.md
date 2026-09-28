@@ -105,7 +105,7 @@ The project addressed these questions through exploratory data analysis, statist
 - Identifies columns exceeding a **30% missing-value threshold** and investigates missing Clicks and Click_Through_Rate by **Platform and Post_Type**.
 - Uses a **heatmap and bar chart** to understand the pattern and concentration of missing data.
 
-![Alt text](images/Missing%Value%Pattern.png)
+![Alt text](images/Missing%20Value%20Pattern.png)
 
 ### Interpretation of the output
 
