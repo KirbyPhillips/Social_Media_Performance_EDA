@@ -107,7 +107,7 @@ These statistics help the business distinguish between typical performance, unus
 
 ## 5. Missing Values
 
-This section examines the amount and pattern of missing data to understand whether missing values could affect the reliability of the performance analysis. It also identifies where missing data is concentrated and whether it represents a limitation for specific metrics.
+This section examines the amount and pattern of missing data to understand whether missing values could affect the reliability of the performance analysis. It also identifies where missing data is concentrated and whether it represents a limitation for specific metrics. It:
 
 - Measures and visualises missing data by calculating **null counts and percentages** for each column.
 - Identifies columns exceeding a **30% missing-value threshold** and investigates missing Clicks and Click_Through_Rate by **Platform and Post_Type**.
