@@ -241,13 +241,10 @@ This EDA examines how social media performance changes over time, including mont
 
 - **Monthly total engagement remains relatively stable** from January 2024 through approximately April 2025, generally ranging between **35 million and 45 million per month**, with normal month-to-month fluctuations.
 - The sharp decline in **May 2025** is caused by the dataset containing only part of the month; this period should therefore be excluded or flagged when reporting trends.
-- **Average engagement rate is almost identical across all seven days**, with values around **0.15** and differences of less than 0.01, indicating that day of week does not meaningfully predict performance.
-- **Posting hour shows similarly limited variation**, with average engagement rates between **0.148 and 0.158**; the highest-performing hours are 13:00, 16:00, 14:00, 18:00, and 17:00, all at approximately **0.16**.
-- Overall, **content appears to matter more than timing** in this dataset: Content Category and post type produce engagement-rate differences of **0.06–0.12**, compared with less than **0.01** across days and posting hours.
 
 ### Why is this important to the business?
 
-Understanding whether timing meaningfully affects performance helps the business focus its content strategy on the factors that have the greatest impact, rather than overemphasising posting schedules when differences are limited.
+The relatively stable trend suggests that overall engagement has remained consistent over the period analysed, while the partial May 2025 data should not be used to draw conclusions about a genuine decline in performance.
 
 ---
 
@@ -280,6 +277,10 @@ Understanding whether timing meaningfully affects performance helps the business
 2. **Posting time does not meaningfully differentiate engagement.** Average Engagement_Rate is approximately **0.15 across all days**, while posting hours range only from **0.148 to 0.158**. The differences are negligible compared with those observed across content categories and post types.
 
 3. **Engagement volume and Engagement_Rate provide different performance insights.** Engagement is strongly related to reach and interaction volume, while Engagement_Rate measures a different aspect of performance. Impressions and Views are perfectly correlated at **1.00**, making them redundant as separate dashboard metrics.
+
+- **Average engagement rate is almost identical across all seven days**, with values around **0.15** and differences of less than 0.01, indicating that day of week does not meaningfully predict performance.
+- **Posting hour shows similarly limited variation**, with average engagement rates between **0.148 and 0.158**; the highest-performing hours are 13:00, 16:00, 14:00, 18:00, and 17:00, all at approximately **0.16**.
+- Overall, **content appears to matter more than timing** in this dataset: Content Category and post type produce engagement-rate differences of **0.06–0.12**, compared with less than **0.01** across days and posting hours.
 
 ---
 
