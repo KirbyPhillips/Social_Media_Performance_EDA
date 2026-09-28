@@ -295,17 +295,19 @@ The analysis shows that content category provides the clearest differentiation i
 
 ### Business Impact & Financial Value
 
-1. **Content strategy:**
-   - The **0.12 Engagement_Rate gap** between the highest and lowest content categories provides a measurable basis for evaluating content strategy.
-   - Financial value could be assessed through **engagement, clicks, leads, conversions, CAC, and revenue**.
+This EDA identifies potential business value and areas for further investigation; financial impact was not directly measured because the dataset does not contain the required commercial data.
 
-3. **Content scheduling:**
-   - The limited variation in Engagement_Rate across days and hours suggests minimal performance differences from timing.
-   - Financial value could be assessed through **content costs, cost per engagement, and campaign ROI**.
+1. **Content Strategy:**
+   - The **0.12 Engagement_Rate gap** between the highest and lowest content categories provides a measurable basis for evaluating content strateg.
+   - Financial value could be assessed by connecting engagement performance with **clicks, leads, conversions, CAC, and revenue.**
 
-5. **Performance measurement:**
-   - Separating Engagement from Engagement_Rate and removing redundant metrics creates a clearer performance framework.
-   - Financial value could be assessed through **CTR, leads, conversions, revenue, ROAS, and marketing ROI**.
+3. **Content Scheduling:**
+   - The limited variation in Engagement_Rate across days and hours suggests **minimal performance differences from posting time.**
+   - Financial value could be assessed through **content costs, cost per engagement, and campaign ROI.**
+
+5. **Performance Measurement:**
+   - Separating **Engagement** from **Engagement_Rate** and removing redundant metrics creates a clearer performance measurement framework.
+   - Financial value could be assessed through **CTR, leads, conversions, revenue, ROAS, and marketing ROI.**
 ---
 
 ## 13. In Hindsight
