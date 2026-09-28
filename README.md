@@ -172,7 +172,7 @@ The project addressed these questions through exploratory data analysis, statist
 - **Engagement, Impressions, Likes, Shares, Comments, Views, and Clicks form a strong positive correlation cluster**, with correlations ranging from **0.80 to 1.00**, indicating that these volume metrics generally move together.
 - **Engagement_Rate behaves differently**, showing weak-to-moderate negative correlations with reach and interaction metrics, including **-0.32 with Impressions and Views**, and a near-zero correlation of **0.04 with Engagement**.
 - **Impressions and Views have a perfect correlation of 1.00**, indicating that they are essentially measuring the same metric in this dataset.
-- **Likes, Shares, Comments, and Clicks correlate strongly with Impressions and Views (0.88–0.95)**, correlations generally between **0.87 and 0.95.** 
+- **Likes, Shares, Comments, and Clicks correlate strongly with Impressions and Views**, with correlations generally between **0.87 and 0.95.** 
 - Overall, the results support treating **Engagement and Engagement_Rate** as distinct performance measures: Engagement reflects interaction volume, while Engagement_Rate captures the proportion of the audience that interacted.
 
 ---
