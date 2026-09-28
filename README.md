@@ -130,7 +130,7 @@ The missing click data limits how confidently the business can use Clicks and Cl
 
 ## 6. Univariate Analysis
 
-### What this code block is doing and why it's needed
+This univariate analysis examines individual variables to understand their distribution, spread, and frequency before comparing relationships between variables. It helps identify patterns such as skewness and extreme values that could affect how performance is interpreted. It:
 
 - Examines each variable individually using **histograms, boxplots, QQ plots, and categorical bar charts**.
 - Assesses the **distribution, spread, outliers, and category frequencies** before analysing relationships between variables.
@@ -145,6 +145,10 @@ The missing click data limits how confidently the business can use Clicks and Cl
 - The QQ plot shows a clear departure from normality, particularly in the upper tail, reinforcing the strong right-skewed distributions.
 - Engagement has no missing values, with 0 nulls shown in the summary statistics.
 - Given the skewed distribution and presence of extreme values, the median provides a more representative measure of typical Engagement than the mean.
+
+**Why is this important to the business?**
+
+Understanding the typical level of engagement helps the business set more realistic expectations for content performance and avoid letting a small number of exceptionally high-performing posts distort the overall picture.
 
 ---
 
