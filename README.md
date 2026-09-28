@@ -38,7 +38,7 @@ The analysis investigates:
 - Does posting day or time meaningfully affect engagement?
 - Which metrics provide the most useful measures of content performance?
 
-The project addresses these questions through exploratory data analysis, statistical analysis, data visualisation, and business-focused interpretation.
+The project addressed these questions through exploratory data analysis, statistical analysis, data visualisation, and business-focused interpretation.
 
 ---
 
