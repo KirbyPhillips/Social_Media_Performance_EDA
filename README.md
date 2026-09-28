@@ -276,15 +276,20 @@ The analysis shows that content category provides the clearest differentiation i
 
 ### Key Findings
 
-1. **Content strategy has a stronger relationship with engagement than platform or timing.** Educational and Customer Story content achieve the highest Engagement_Rate at **0.20**, compared with **0.08 for Entertainment**. Post Type shows a smaller difference, while Platform has the narrowest range.
+1. **Content strategy has the strongest relationship with engagement.**
+   Educational and Customer Story content achieve the highest Engagement_Rate at **0.20,** compared with **0.08** for Entertainment. Content Category shows a larger difference in performance than Post Type or Platform.
 
-2. **Posting time does not meaningfully differentiate engagement.** Average Engagement_Rate is approximately **0.15 across all days**, while posting hours range only from **0.148 to 0.158**. The differences are negligible compared with those observed across content categories and post types.
+2. **Posting time does not meaningfully differentiate engagement.**
+   Average Engagement_Rate is approximately **0.15 across all days,** while posting hours range only from **0.148 to 0.158.** The differences are small compared with those observed across content categories and post types
 
-3. **Engagement volume and Engagement_Rate provide different performance insights.** Engagement is strongly related to reach and interaction volume, while Engagement_Rate measures a different aspect of performance. Impressions and Views are perfectly correlated at **1.00**, making them redundant as separate dashboard metrics.
+3. **Engagement volume and Engagement_Rate provide different performance insights.**
+   Engagement is strongly related to reach and interaction volume, while Engagement_Rate measures a different aspect of performance. This means both metrics can provide useful but distinct views of content performance.
 
-- **Average engagement rate is almost identical across all seven days**, with values around **0.15** and differences of less than 0.01, indicating that day of week does not meaningfully predict performance.
-- **Posting hour shows similarly limited variation**, with average engagement rates between **0.148 and 0.158**; the highest-performing hours are 13:00, 16:00, 14:00, 18:00, and 17:00, all at approximately **0.16**.
-- Overall, **content appears to matter more than timing** in this dataset: Content Category and post type produce engagement-rate differences of **0.06–0.12**, compared with less than **0.01** across days and posting hours.
+4. **Impressions and Views are redundant as separate performance metrics**
+   Impressions and Views have a perfect correlation of 1.00 in this dataset, suggesting that including both as separate dashboard metrics would provide little additional information.
+
+5. **Click-based performance has an important data limitation.**
+   Clicks and Click_Through_Rate are missing for 3,740 posts (66.8%), meaning click-based analysis is limited to 1,860 posts and should be interpreted with caution.
 
 ---
 
