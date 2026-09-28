@@ -44,20 +44,24 @@ The project addressed these questions through exploratory data analysis, statist
 
 ## 2. Data Inspection
 
-This dataset was inspected to determine its **size, structure, data types, and missing values** before conducting any analysis, and the:
+This dataset was inspected to determine its **size, structure, data types, and missing values** before conducting any analysis. This helps establish whether the data is suitable for analysis and highlights any limitations that could affect business conclusions.
 
 - `df.shape` shows the number of rows and columns.
 - `df.info()` shows column names, data types, and non-null counts.
 - `audit()` provides a deeper column-level check of nulls, unique values, and sample values.
 - Memory usage confirms the dataset is lightweight enough to work with efficiently.
 
-The data inspection revealed that:
+**The data inspection revealed that:**
 
 - The dataset contains **5,600 posts across 24 columns**.
 - Only **Clicks** and **Click_Through_Rate** contain missing values, with **3,740 missing values (66.8%)** each.
-- The missing click data appears structural rather than random, likely relating to specific platforms and post types that do not generate trackable clicks.
+- The missing click data appears **structural rather than random,** likely relating to specific platforms and post types that do not generate trackable clicks.
 - Data types are clean and logical: strings are stored as objects, counts as integers, rates as floats, and dates as datetime.
 - The dataset is lightweight at just over 1MB, so it can be processed efficiently throughout the analysis.
+
+**Why is this important to the business?**
+
+The data inspection shows that the dataset is generally well structured for analysing social media performance, but click-based metrics have a significant limitation. With click data available for only part of the dataset, the business should be cautious when using Clicks or CTR to compare overall content performance. This limitation needs to be considered before making decisions based on those metrics.
 
 ---
 
