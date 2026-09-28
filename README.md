@@ -160,7 +160,7 @@ The project addressed these questions through exploratory data analysis, statist
 ### What this code block is doing and why it's needed
 
 - Calculates the **correlation between every pair of numeric metrics** and visualises the results using a colour-coded heatmap.
-- Masks the upper triangle to remove duplicate values, leaving each unique correlation pair shown once.
+- Masks the upper triangle to remove duplicate values, leaving each unique correlation pair visible once.
 - Extracts and ranks the **top 15 most correlated pairs** by absolute correlation strength.
 - Uses correlation analysis to identify which metrics **move together and which measure different behaviour**.
 - Supports dashboard design by identifying metrics that are redundant versus those that provide distinct performance insights.
@@ -169,11 +169,11 @@ The project addressed these questions through exploratory data analysis, statist
 
 ### Interpretation of the output
 
-- **Engagement, Impressions, Likes, Shares, Comments, Views, and Clicks form a strong correlation cluster**, with correlations ranging from **0.80 to 1.00**, showing that these volume metrics generally move together.
-- **Engagement_Rate behaves differently**, showing negative correlations with reach and interaction metrics, including **-0.32 with Impressions and Views**, and a near-zero correlation of **0.04 with Engagement**.
-- **Impressions and Views have a perfect correlation of 1.00**, indicating they are essentially measuring the same metric in this dataset; including both in the dashboard would therefore be redundant.
-- **Likes, Shares, Comments, and Clicks correlate strongly with Impressions and Views (0.88–0.95)**, while Engagement correlates **0.87 with both Views and Impressions**, confirming its relationship with overall interaction volume.
-- For dashboard design, **Impressions can represent reach instead of Views**, while **Engagement and Engagement_Rate should be reported separately** because total Engagement reflects raw interaction volume, whereas Engagement_Rate reflects the proportion of the audience that interacted.
+- **Engagement, Impressions, Likes, Shares, Comments, Views, and Clicks form a strong positive correlation cluster**, with correlations ranging from **0.80 to 1.00**, indicating that these volume metrics generally move together.
+- **Engagement_Rate behaves differently**, showing weak-to-moderate negative correlations with reach and interaction metrics, including **-0.32 with Impressions and Views**, and a near-zero correlation of **0.04 with Engagement**.
+- **Impressions and Views have a perfect correlation of 1.00**, indicating that they are essentially measuring the same metric in this dataset.
+- **Likes, Shares, Comments, and Clicks correlate strongly with Impressions and Views (0.88–0.95)**, correlations generally between **0.87 and 0.95.** 
+- Overall, the results support treating **Engagement and Engagement_Rate** as distinct performance measures: Engagement reflects interaction volume, while Engagement_Rate captures the proportion of the audience that interacted.
 
 ---
 
