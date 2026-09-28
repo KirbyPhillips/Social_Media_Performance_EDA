@@ -34,7 +34,7 @@ This project analysed 5,600 social media posts across 6 platforms to understand 
 
 The analysis investigates:
 
-- Which content factors drive the highest engagement rate?
+- Which content factors are associated with higher engagement rates?
 - Does posting day or time meaningfully affect engagement?
 - Which metrics provide the most useful measures of content performance?
 
@@ -276,7 +276,7 @@ The analysis shows that content category provides the clearest differentiation i
 
 ### Key Findings
 
-1. **Content strategy has the strongest relationship with engagement.**
+1. **Content Category shows the strongest association with engagement.**
    Educational and Customer Story content achieve the highest Engagement_Rate at **0.20,** compared with **0.08** for Entertainment. Content Category shows a larger difference in performance than Post Type or Platform.
 
 2. **Posting time does not meaningfully differentiate engagement.**
@@ -285,7 +285,7 @@ The analysis shows that content category provides the clearest differentiation i
 3. **Engagement volume and Engagement_Rate provide different performance insights.**
    Engagement is strongly related to reach and interaction volume, while Engagement_Rate measures a different aspect of performance. This means both metrics can provide useful but distinct views of content performance.
 
-4. **Impressions and Views are redundant as separate performance metrics**
+4. **Impressions and Views are redundant as separate performance metrics in this dataset.**
    Impressions and Views have a perfect correlation of 1.00 in this dataset, suggesting that including both as separate dashboard metrics would provide little additional information.
 
 5. **Click-based performance has an important data limitation.**
@@ -298,7 +298,7 @@ The analysis shows that content category provides the clearest differentiation i
 This EDA identifies potential business value and areas for further investigation; financial impact was not directly measured because the dataset does not contain the required commercial data.
 
 1. **Content Strategy:**
-   - The **0.12 Engagement_Rate gap** between the highest and lowest content categories provides a measurable basis for evaluating content strateg.
+   - The **0.12 Engagement_Rate gap** between the highest and lowest content categories provides a measurable basis for evaluating content strategy.
    - Financial value could be assessed by connecting engagement performance with **clicks, leads, conversions, CAC, and revenue.**
 
 3. **Content Scheduling:**
