@@ -140,18 +140,18 @@ The project addressed these questions through exploratory data analysis, statist
 ### What this code block is doing and why it's needed
 
 - Examines relationships between pairs of variables using **boxplots, violin plots, group-level statistics, and cross-tabulations**.
-- Compares Engagement_Rate across **Platform, Post_Type, and Content_Category**, and examines the relationship between Post_Type and Engagement_Level.
-- Identifies which content dimensions are associated with meaningful differences in performance.
+- Compares Engagement_Rate across Content_Category to identify differences in performance between content types.
+- Identifies which content categories are associated with different levels of engagement performance.
 
 ![Alt text](images/Engagement%20Rate%20by%20Content%20Category.png)
 
 ### Interpretation of the output
 
-- **Engagement_Rate is consistent across platforms**, ranging from a median of **0.14 on LinkedIn to 0.16 on Instagram**, indicating that platform alone is not a meaningful differentiator.
-- **Post_Type shows more variation**: Image and PDF have the highest median engagement rate at **0.18**, while Video is lowest at **0.14**, despite accounting for **52.6% of all posts**.
-- **Content_Category shows the strongest variation**: Customer Story and Educational both have a median engagement rate of **0.20**, compared with **0.08 for Entertainment**.
-- **Video has the lowest proportion of High engagement (22%) and highest proportion of Low engagement (29%)**, while Image and PDF posts have higher proportions of High engagement.
-- The findings indicate that **content category and post type are stronger performance differentiators than platform**, with Educational and Customer Story content consistently performing strongly.
+- **Customer Story and Educational** content show the highest typical Engagement_Rate, with both having a median of approximately 0.20.
+- **Entertainment** has the lowest typical Engagement_Rate, with a median of approximately 0.08.
+- **Event / Webinar and Product Promotion** fall between these categories, with median Engagement_Rates of approximately 0.14 and 0.12 respectively.
+- The distributions also show that **Product Promotion** contains several higher-value observations, visible as individual points above the upper whisker.
+- Overall, the graph shows **meaningful differences in Engagement_Rate across Content_Category,** with Educational and Customer Story content associated with substantially higher typical engagement than Entertainment content.
 
 ---
 
