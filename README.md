@@ -204,18 +204,18 @@ The project addressed these questions through exploratory data analysis, statist
 - Analyses performance patterns across **monthly, weekly, and hourly time dimensions**.
 - Converts `Post_Date` into a proper datetime format and groups **total engagement by month** to identify overall trends.
 - Extracts the **day of week** from each post date to compare average engagement rates.
-- Groups posts by **posting hour** to identify which times of day perform best.
+- Groups posts by **posting hour** to identify patterns in engagement performance.
 - Provides data-driven insight into **when to post**, a key requirement of social media performance analysis.
 
 ![Alt text](images/Monthly%20Total%20Engagement%20Trend.png)
 
 ### Interpretation of the output
 
-- **Monthly total engagement remains relatively stable** from January 2024 through approximately April 2025, generally ranging between **35 million and 45 million per month**, with a dip in April 2024 followed by recovery.
-- The sharp decline in **May 2025 is a data collection artefact**, likely caused by the dataset containing only part of the month; this period should therefore be excluded or flagged when reporting trends.
+- **Monthly total engagement remains relatively stable** from January 2024 through approximately April 2025, generally ranging between **35 million and 45 million per month**, with normal month-to-month fluctuations.
+- The sharp decline in **May 2025** is caused by the dataset containing only part of the month; this period should therefore be excluded or flagged when reporting trends.
 - **Average engagement rate is almost identical across all seven days**, with values around **0.15** and differences of less than 0.01, indicating that day of week does not meaningfully predict performance.
 - **Posting hour shows similarly limited variation**, with average engagement rates between **0.148 and 0.158**; the highest-performing hours are 13:00, 16:00, 14:00, 18:00, and 17:00, all at approximately **0.16**.
-- Overall, **content appears to matter more than timing** in this dataset: content category and post type produce engagement-rate differences of **0.06–0.12**, compared with less than **0.01** across days and posting hours.
+- Overall, **content appears to matter more than timing** in this dataset: Content Category and post type produce engagement-rate differences of **0.06–0.12**, compared with less than **0.01** across days and posting hours.
 
 ---
 
