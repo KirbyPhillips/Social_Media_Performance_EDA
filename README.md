@@ -44,15 +44,14 @@ The project addressed these questions through exploratory data analysis, statist
 
 ## 2. Data Inspection
 
-### What this code block is doing and why it's needed
+This dataset was inspected to determine its **size, structure, data types, and missing values** before conducting any analysis, and the:
 
-- Checks the dataset’s **size, structure, data types, and missing values** before analysis.
 - `df.shape` shows the number of rows and columns.
 - `df.info()` shows column names, data types, and non-null counts.
 - `audit()` provides a deeper column-level check of **nulls, unique values, and sample values**.
 - Memory usage confirms the dataset is lightweight enough to work with efficiently.
 
-### Interpretation of the output
+The data inspection revealed that:
 
 - The dataset contains **5,600 posts across 24 columns**.
 - Only **Clicks** and **Click_Through_Rate** contain missing values, with **3,740 missing values (66.8%)** each.
