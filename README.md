@@ -122,6 +122,7 @@ The project addressed these questions through exploratory data analysis, statist
 
 - Examines each variable individually using **histograms, boxplots, QQ plots, and categorical bar charts**.
 - Assesses the **distribution, spread, outliers, and category frequencies** before analysing relationships between variables.
+  
 
 ![Alt text](images/Engagement%20Distribution.png)
 
