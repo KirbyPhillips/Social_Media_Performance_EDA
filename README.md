@@ -203,7 +203,7 @@ Understanding these relationships helps the business focus on metrics that provi
 
 ## 9. Outlier Detection
 
-### What this code block is doing and why it's needed
+The outlier detection identifies unusually high or low performance values and examines whether they represent genuine variation in social media performance. It helps distinguish potentially meaningful high-performing posts from values that could distort the overall analysis. It specifically:
 
 - Identifies unusually high or low values using **IQR and Z-score methods**.
 - IQR is more suitable for **skewed data**, while Z-score identifies more extreme deviations from the mean.
@@ -211,13 +211,17 @@ Understanding these relationships helps the business focus on metrics that provi
 
 ![Alt text](images/Outlier%20Overview.png)
 
-### Interpretation of the output
+### The outlier detection revealed that:
 
 - **Engagement has the highest IQR outlier count**, with 435 posts (7.8%), followed by Comments (7.1%), Likes (5.5%), and Shares (5.2%).
 - **Engagement_Rate has zero IQR outliers**, reinforcing that it is a stable and consistent performance metric.
 - The Z-score method flags **263 rows**, identifying a smaller set of more extreme observations.
 - The boxplots show that **Engagement, Likes, Shares, Comments, Impressions, Views, and Clicks** contain numerous high-value observations beyond the upper whiskers, reflecting the strongly right-skewed nature of these metrics.
 - These observations should not automatically be treated as errors. They may represent legitimate high-performing posts, so retaining and flagging them allows the analysis to account for their influence without unnecessarily removing valid data.
+
+### Why is this important to the business?
+
+Identifying high-performing outliers helps the business understand exceptional content performance without allowing it to distort typical results. Retaining these posts also provides an opportunity to investigate what may have contributed to their success.
 
 ---
 
