@@ -111,9 +111,10 @@ This section examines the amount and pattern of missing data to understand wheth
 
 - Measures and visualises missing data by calculating **null counts and percentages** for each column.
 - Identifies columns exceeding a **30% missing-value threshold** and investigates missing Clicks and Click_Through_Rate by **Platform and Post_Type**.
-- Uses a **heatmap and bar chart** to understand the pattern and concentration of missing data.
+- Uses a **bar chart** to understand the pattern and concentration of missing data.
 
 ![Alt text](images/Missing%20Values%20Code.png)
+Python code used to analyse missing values and generate the visualisations.
 
 ![Alt text](images/Missing%20Value%20Pattern.png)
 
