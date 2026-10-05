@@ -275,7 +275,15 @@ This EDA examines how social media performance changes over time, including mont
 - Groups posts by **posting hour** to identify patterns in engagement performance.
 - Assesses whether posting time is associated with differences in engagement performance.
 
+![Alt text](images/Monthly%20Total%20Engagement%20Trend%20Code.png)
+
+**Image above:** *Python code used to analyse engagement trends over time and generate the visualisation.*
+
+
+
 ![Alt text](images/Monthly%20Total%20Engagement%20Trend.png)
+
+**Image above:** *Monthly total engagement trend showing overall engagement from January 2024 to May 2025.*
 
 ### The time series EDA revealed that:
 
