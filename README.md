@@ -113,6 +113,8 @@ This section examines the amount and pattern of missing data to understand wheth
 - Identifies columns exceeding a **30% missing-value threshold** and investigates missing Clicks and Click_Through_Rate by **Platform and Post_Type**.
 - Uses a **heatmap and bar chart** to understand the pattern and concentration of missing data.
 
+![Alt text](images/Missing%20Values%20Code.png)
+
 ![Alt text](images/Missing%20Value%20Pattern.png)
 
 ### The missing values investigation revealed that:
