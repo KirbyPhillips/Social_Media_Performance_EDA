@@ -241,7 +241,15 @@ The outlier analysis identifies unusually high or low performance values and exa
 - IQR is more suitable for **skewed data**, while Z-score identifies more extreme deviations from the mean.
 - Flags outliers with an **Is_Outlier** column rather than removing them, allowing them to be included or excluded during analysis.
 
+![Alt text](images/Outlier%20Detection%20Code.png)
+
+**Image above:** *Python code used to detect and assess outliers using IQR and Z-score methods.*
+
+
+
 ![Alt text](images/Outlier%20Overview.png)
+
+**Image above:** *Outlier analysis showing the distribution of identified outliers across key performance metrics.*
 
 ### The outlier detection revealed that:
 
