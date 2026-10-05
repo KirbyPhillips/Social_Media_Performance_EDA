@@ -114,7 +114,7 @@ This section examines the amount and pattern of missing data to understand wheth
 - Uses a **bar chart** to understand the pattern and concentration of missing data.
 
 ![Alt text](images/Missing%20Values%20Code.png)
-*Python code used to analyse missing values and generate the visualisations.*
+**Image above:** *Python code used to analyse missing values and generate the visualisations.*
 
 
 ![Alt text](images/Missing%20Value%20Pattern.png)
