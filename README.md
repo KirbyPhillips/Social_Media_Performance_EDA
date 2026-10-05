@@ -118,7 +118,7 @@ This section examines the amount and pattern of missing data to understand wheth
 
 
 ![Alt text](images/Missing%20Value%20Pattern.png)
-*Missing value pattern and missing values by column.*
+**Image above:** *Missing value pattern and missing values by column.*
 
 ### The missing values investigation revealed that:
 
