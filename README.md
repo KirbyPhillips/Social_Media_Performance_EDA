@@ -140,7 +140,11 @@ This univariate analysis examines individual variables to understand their distr
 - Examines each variable individually using **histograms, boxplots, QQ plots, and categorical bar charts**.
 - Assesses the **distribution, spread, outliers, and category frequencies** before analysing relationships between variables.
 
+![Alt text](images/Engagement%20Distribution%20Code.png)
+**Image above:** *Python code used to analyse the distribution of Engagement and generate the visualisation.*
+
 ![Alt text](images/Engagement%20Distribution.png)
+**Image above:** *Engagement distribution showing the strong right skew and high-value outliers.*
 
 ### The univariate analysis revealed that:
 
