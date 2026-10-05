@@ -85,7 +85,7 @@ The health check confirms that the data can be used to identify meaningful patte
 
 ## 4. Descriptive Statistics
 
-The descriptive statistics summarise the main characteristics of the dataset, including typical performance, variation, and relationships between key metrics. They help establish how performance should be measured and interpreted before moving into deeper analysis, and it includes:
+The descriptive statistics summarise the main characteristics of the dataset, including typical performance, variation, and relationships between key metrics. They help establish how performance should be measured and interpreted before moving into deeper analysis, and include:
 
 - Calculates summary statistics for the dataset, including **mean, median, skewness, kurtosis, and null counts** across key metrics.
 - Separates columns into **numeric, categorical, and datetime** types to understand the structure of the data.
