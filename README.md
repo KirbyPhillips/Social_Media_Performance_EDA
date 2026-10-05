@@ -114,10 +114,13 @@ This section examines the amount and pattern of missing data to understand wheth
 - Uses a **bar chart** to understand the pattern and concentration of missing data.
 
 ![Alt text](images/Missing%20Values%20Code.png)
+
 **Image above:** *Python code used to analyse missing values and generate the visualisations.*
 
 
+
 ![Alt text](images/Missing%20Value%20Pattern.png)
+
 **Image above:** *Missing value pattern and missing values by column.*
 
 ### The missing values investigation revealed that:
@@ -145,7 +148,9 @@ This univariate analysis examines individual variables to understand their distr
 **Image above:** *Python code used to analyse the distribution of Engagement and generate the visualisation.*
 
 
+
 ![Alt text](images/Engagement%20Distribution.png) 
+
 **Image above:** *Engagement distribution showing the strong right skew and high-value outliers.*
 
 ### The univariate analysis revealed that:
