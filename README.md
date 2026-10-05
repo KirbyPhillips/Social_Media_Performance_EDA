@@ -175,7 +175,15 @@ This bivariate analysis examines how Engagement_Rate differs across content cate
 - Compares Engagement_Rate across Content_Category to identify differences in performance between content types.
 - Identifies which content categories are associated with different levels of engagement performance.
 
+![Alt text](images/Engagement%20Rate%20by%20Content%20Category%20Code.png)
+
+**Image above:** *Python code used to compare Engagement Rate across content categories and generate the visualisation.*
+
+
+
 ![Alt text](images/Engagement%20Rate%20by%20Content%20Category.png)
+
+**Image above:** *Engagement Rate by Content Category showing differences in typical engagement across content categories.*
 
 ### The bivariate analysis revealed that:
 
