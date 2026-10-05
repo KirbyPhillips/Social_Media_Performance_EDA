@@ -209,7 +209,15 @@ This correlation analysis examines how the main performance metrics relate to on
 - Uses correlation analysis to identify which metrics **move together and which measure different behaviour**.
 - Supports dashboard design by identifying metrics that are redundant versus those that provide distinct performance insights.
 
+![Alt text](images/Correlation%20Matrix%20Code.png)
+
+**Image above:** *Python code used to calculate correlations between key performance metrics and generate the heatmap.*
+
+
+
 ![Alt text](images/Correlation%20Matrix.png)
+
+**Image above:** *Correlation matrix showing the relationships between key performance metrics.*
 
 ### The correlation check revealed that:
 
